@@ -12,8 +12,8 @@ export default function App() {
   return (
     <div className="App">
       {console.log("rendered ", count)}
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Test App</h1>
+      <h2>A small test app to show useEffect works</h2>
       <button onClick={() => setcount(count + 1)}>{"increment"}</button>
     </div>
   );
